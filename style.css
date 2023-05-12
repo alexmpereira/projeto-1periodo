@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, Arial;
+}
+body {
+    padding-top: 90px;
+}
+header {
+    box-sizing: border-box;
+    display: inline-block;
+    top: 0;
+    position: fixed;
+}
+header nav, .menu {
+    float: right;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 30px;
+}
+header nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    transition: all 1s;
+    font-weight: 700;
+}
+header nav ul li a:hover {
+    color: #F9AA08;
+}
+header .menu {
+    margin: 20px;
+    border: 1px solid #F9AA08;
+    color: #F9AA08;
+    text-decoration: none;
+    padding: 10px;
+    display: none;
+}
+.block {
+    display: block;
+}
+.mobile { 
+    display: none;
+}
+.banner img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.center {
+    text-align: center;
+}
+footer {
+    background-color: #103FA7;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #FFF;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    line-height: 21px;
+    color: #103FA7;
+    background-color: #F9AA08;
+    border-radius: 100%;
+    margin: 10px;
+}
+.grid-filmes {
+    display: grid;
+}
+.grid-filmes .coluna {
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px #ccc;
+}
+.grid-filmes .coluna img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+main {
+    width: 1000px;
+    margin: 30px auto;
+}
+.grid-filmes h2, .grid-detalhes h2 {
+    font-size: 18px;
+    height: 40px;
+    margin: 10px;
+}
+.btn {
+    background-color: #103FA7;
+    color: #F9AA08;
+    padding: 5px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
+.grid-detalhes {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.grid-detalhes .coluna {
+    margin: 10px;
+}
+.grid-detalhes .coluna img {
+    width: 100%;
+}
+main p {
+    line-height: 30px;
+    margin: 20px;
+    text-align: justify;
+}
+@media (max-width: 420px) {
+    header img {
+        width: 250px;
+    }
+    header .menu, .mobile {
+        display: block;
+    }
+    header nav, .desktop {
+        display: none;
+        width: 100%;
+    }
+    header nav ul li {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    .grid-filmes, .grid-detalhes {
+        grid-template-columns: 100%;
+    }
+}

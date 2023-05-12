@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockBuster</title>
+    <meta name="description" content="Site da Blockbuster - Maior locadora do mundo!">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/icone.png">
+</head>
+<body>
+    <header>
+        <a href="index.html" title="Blockbuster">
+            <img src="imagens/logo.jpg" alt="Blockbster">
+        </a>
+
+        <a href="javascript:menu()" title="Menu" class="menu">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" title="Home">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Quem Somos">
+                        <i class="fas fa-search"></i>
+                        Quem Somos
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Filmes">
+                        <i class="fas fa-film"></i>
+                        Filmes
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="center">Filmes em Cartaz</h1>
+        <div class="grid-filmes">
+            <div class="coluna">
+                <img src="imagens/001.jpg" alt="Batman">
+                <h2>Batman</h2>
+                <p>
+                    <a href="filme.html" title="Batman" class="btn">
+                        <i class="fas fa-check"></i>
+                        Detalhes
+                    </a>
+                </p>
+            </div>
+            <div class="coluna">
+                <img src="imagens/002.jpg" alt="Uncharted">
+                <h2>Uncharted</h2>
+                <p>
+                    <a href="filme.html" title="Uncharted" class="btn">
+                        <i class="fas fa-check"></i>
+                        Detalhes
+                    </a>
+                </p>
+            </div>
+            <div class="coluna">
+                <img src="imagens/003.jpg" alt="Agente das Sombras">
+                <h2>Agente das Sombras</h2>
+                <p>
+                    <a href="filme.html" title="Agente das Sombras" class="btn">
+                        <i class="fas fa-check"></i>
+                        Detalhes
+                    </a>
+                </p>
+            </div>
+            <div class="coluna">
+                <img src="imagens/004.jpg" alt="Homem-Aranha: Sem Volta para Casa">
+                <h2>Homem-Aranha: Sem Volta para Casa</h2>
+                <p>
+                    <a href="filme.html" title="Homem-Aranha: Sem Volta para Casa" class="btn">
+                        <i class="fas fa-check"></i>
+                        Detalhes
+                    </a>
+                </p>
+            </div>
+            <div class="coluna">
+                <img src="imagens/005.jpg" alt="Coração de fogo">
+                <h2>Coração de fogo</h2>
+                <p>
+                    <a href="filme.html" title="Coração de fogo" class="btn">
+                        <i class="fas fa-check"></i>
+                        Detalhes
+                    </a>
+                </p>
+            </div>
+            <div class="coluna">
+                <img src="imagens/006.jpg" alt="Drive My Car">
+                <h2>Drive My Car</h2>
+                <p>
+                    <a href="filme.html" title="Drive My Car" class="btn">
+                        <i class="fas fa-check"></i>
+                        Detalhes
+                    </a>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="center">
+            Desenvolvido por: Seu nome
+        </p>
+        <p class="center">
+            <a href="http://www.facebook.com" title="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="http://www.instagram.com" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </p>
+    </footer>
+    <script>
+        function menu() {
+    
+            document.querySelector("header nav").classList.toggle("block");
+            
+        }
+        </script>
+</body>
+</html>

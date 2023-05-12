@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockBuster</title>
+    <meta name="description" content="Site da Blockbuster - Maior locadora do mundo!">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/icone.png">
+</head>
+<body>
+    <header>
+        <a href="index.html" title="Blockbuster">
+            <img src="imagens/logo.jpg" alt="Blockbster">
+        </a>
+
+        <a href="javascript:menu()" title="Menu" class="menu">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" title="Home">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Quem Somos">
+                        <i class="fas fa-search"></i>
+                        Quem Somos
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Filmes">
+                        <i class="fas fa-film"></i>
+                        Filmes
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="grid-detalhes">
+            <div class="coluna">
+                <p><img src="imagens/foto1.jpg" alt="Sobre"></p>
+                <p><img src="imagens/foto2.jpg" alt="Sobre"></p>
+                <p><img src="imagens/foto3.jpg" alt="Sobre"></p>
+            </div>
+            <div class="coluna">
+                <h2 class="center">Quem Somos</h2>
+                <p>A Blockbuster Entertainment Company começou como Blockbuster Video em Dallas, Texas em 19 de outubro de 1985, fundada pelo jovem David P. Cook. Cook fez o negócio crescer e o tornou público antes de passar a administração para Joe Mitchell, CEO, que rapidamente transformou o negócio em uma corporação bilionária. Foi vendida para a Viacom em 1994 por US$ 8,4 bilhões. Na década de 1990, a Blockbuster comprou a rival britânica Ritz Video. Em 1996, a Blockbuster Entertainment Corporation foi renomeada para simplesmente Blockbuster, Inc. e as lojas de varejo para Blockbuster.</p>
+                <p>A Blockbuster acumulou prejuízos nos últimos anos que esteve em atividades. Em Dezembro de 2004, anunciou a vontade de fazer um takeover da Hollywood Video, sua maior concorrente americana, mas o negócio não prosperou. Em fevereiro de 2006, a empresa tinha um valor de mercado de quase US$ 500 milhões. Em 2007, a rede operava em 26 países e contava com oito mil lojas e mais de 70 milhões de associados.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="center">
+            Desenvolvido por: Seu nome
+        </p>
+        <p class="center">
+            <a href="http://www.facebook.com" title="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="http://www.instagram.com" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </p>
+    </footer>
+    <script>
+        function menu() {
+    
+            document.querySelector("header nav").classList.toggle("block");
+            
+        }
+        </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockBuster</title>
+    <meta name="description" content="Site da Blockbuster - Maior locadora do mundo!">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/icone.png">
+</head>
+<body>
+    <header>
+        <a href="index.html" title="Blockbuster">
+            <img src="imagens/logo.jpg" alt="Blockbster">
+        </a>
+
+        <a href="javascript:menu()" title="Menu" class="menu">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" title="Home">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Quem Somos">
+                        <i class="fas fa-search"></i>
+                        Quem Somos
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Filmes">
+                        <i class="fas fa-film"></i>
+                        Filmes
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="grid-detalhes">
+            <div class="coluna">
+                <img src="imagens/001.jpg" alt="Batman">
+                
+            </div>
+            <div class="coluna">
+                <h2 class="center">Batman</h2>
+                <p>3 de março de 2022 No cinema / 2h 57min / Ação , Policial , Suspense</p>
+                <p>Direção: Matt Reeves</p>
+                <p>Roteiro Matt Reeves , Peter Craig</p>
+                <p>Elenco: Robert Pattinson , Zoë Kravitz , Paul Dano</p>
+                <p>Título original The Batman</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="center">
+            Desenvolvido por: Seu nome
+        </p>
+        <p class="center">
+            <a href="http://www.facebook.com" title="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="http://www.instagram.com" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </p>
+    </footer>
+    <script>
+        function menu() {
+    
+            document.querySelector("header nav").classList.toggle("block");
+            
+        }
+        </script>
+</body>
+</html>
